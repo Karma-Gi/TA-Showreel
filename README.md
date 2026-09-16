@@ -1,35 +1,33 @@
-# TA Showreel · 个人技术美术作品集
+# TA Showreel · Technical Art Portfolio
 
-这里记录我的实时渲染与技术美术实践，关注材质质感、光照表现与程序化效果。作品与演示会持续更新。
+A growing collection of my real-time rendering and technical art work, exploring materials, lighting, and procedural effects.
 
-## [▶ 在线浏览作品集｜页面内直接播放](https://karma-gi.github.io/TA-Showreel/)
+## [▶ View Portfolio](https://karma-gi.github.io/TA-Showreel/)
 
-打开作品集页面，点击视频即可观看，支持全屏播放，无需先下载文件。
+## PBR / IBL Shading & Parameterized Materials
 
-## PBR／IBL 着色与参数化材质
+[![PBR / IBL material showcase](media/pbr-cover.jpg)](https://karma-gi.github.io/TA-Showreel/#pbr-ibl)
 
-[![PBR／IBL 材质展示](media/pbr-cover.jpg)](https://karma-gi.github.io/TA-Showreel/#pbr-ibl)
+A nine-sphere material study exploring how roughness, surface detail, and anisotropy shape the appearance of metals, dielectrics, and mixed materials.
 
-以九球展示金属、非金属、凹凸与混合材质，探索粗糙度、表面细节及各向异性对质感的影响。
+- Cook–Torrance shading, BRDF LUT baking, and Split-Sum specular IBL using Unity's prefiltered reflection probes.
+- Anisotropic highlights, approximate anisotropic environment reflections, triplanar bump mapping, and mask-driven material blending.
 
-- Cook–Torrance 着色、BRDF LUT 烘焙与 Split-Sum 镜面 IBL。
-- 各向异性高光、环境反射方向近似、三平面凹凸与遮罩混合。
+[▶ PBR / IBL Showcase](https://karma-gi.github.io/TA-Showreel/#pbr-ibl)
 
-[▶ 播放作品](https://karma-gi.github.io/TA-Showreel/#pbr-ibl)
+## Procedural Water & Water Elemental
 
-## 程序化水纹与 Water Elemental
+[![Procedural water showcase](media/water-cover.jpg)](https://karma-gi.github.io/TA-Showreel/#water-elemental)
 
-[![程序化水体展示](media/water-cover.jpg)](https://karma-gi.github.io/TA-Showreel/#water-elemental)
+A procedural water material applied to a water elemental model. Front and orbit views highlight flowing surface detail, reflections, and thickness-dependent transmission.
 
-将程序化水纹应用于水元素模型，通过正面与环绕镜头呈现流动、反光和水体厚度带来的透光变化。
+- Multi-scale noise, triplanar mapping, and dual-phase flow blending.
+- Model SDF-based refraction path estimation, combined with absorption, approximate scattering, and environment reflections.
 
-- 多尺度噪声、三平面映射与双相位流动混合。
-- 基于模型 SDF 的折射路径估算，结合吸收、散射近似与环境反射。
+[▶ Water Elemental Showcase](https://karma-gi.github.io/TA-Showreel/#water-elemental)
 
-[▶ 播放作品](https://karma-gi.github.io/TA-Showreel/#water-elemental)
-
-水元素模型由 Meshy 生成，个人工作聚焦材质开发、渲染效果与模型适配。
+The model was generated with Meshy. My work focuses on material development, shading, and adapting the material to the model.
 
 ---
 
-持续探索与更新 · [原始视频存档](https://github.com/Karma-Gi/TA-Showreel/releases)
+More work to come · [Original Videos](https://github.com/Karma-Gi/TA-Showreel/releases)
